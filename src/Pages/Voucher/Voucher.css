@@ -1,0 +1,33 @@
+.voucher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35vh;
+  justify-content: space-between;
+}
+.voucher_email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 13vh;
+  justify-content: space-between;
+}
+.voucher_text {
+  color:green;
+  font-size: larger;
+  text-align: justify;
+  text-align: center;
+}
+.error_text {
+  color:red;
+  font-size: larger;
+  text-align: justify;
+  text-align: center;
+}
+.voucher_code {
+  color: chocolate;
+  text-align: center;
+}
+.input_code {
+  display: none;
+}
